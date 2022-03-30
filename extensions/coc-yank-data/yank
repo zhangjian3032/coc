@@ -1,0 +1,955 @@
+3d96611684851a594414c362b569c731|file:///home/zhangjian/.config/nvim/init.vim|8|10|V|vim
+	set leader
+1b52aed410708069b2f4b81fe03a78af|file:///home/zhangjian/.config/nvim/init.vim|214|1|V|vim
+	source $HOME/.config/nvim/nerdtree.vim
+e9711e760d8a0a7f10f27c8ef15bec53|file:///home/zhangjian/.config/nvim/leader.vim|3|1|V|vim
+	nnoremap <leader>y <esc>:<C-u>CocList -A --normal yank<cr>
+40ab0160c42c982557f3c1a99bfdb1a6|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/meson.build|22|1|v|meson
+	conf_data
+496f3dd8b14d973e262dd76636fe5f85|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/meson.build|28|32|v|meson
+	gram(
+764e6d40f5fe63735fc1055eaaf017d7|file:///extra/zhangjian/prj/openbmc-jian/build/g220a/workspace/sources/phosphor-ipmi-net/test.c|4|6|V|c
+	    ma
+2165b0495921afefa8534442f7ab522f|file:///home/zhangjian/.config/nvim/init.vim|211|11|V|vim
+	let g:UltiSnipsExpandTrigger="<c-t>"
+6893f0ff5ba17eca19c12a0644596f9e|file:///extra/zhangjian/prj/openbmc-jian/build/g220a/workspace/sources/phosphor-ipmi-net/test.c|6|12|v|c
+	const char *restrict __format, ...
+07ab643a76e04837db84e10e475d7d6e|file:///extra/zhangjian/prj/openbmc-jian/build/g220a/workspace/sources/phosphor-ipmi-net/test.c|7|18|V|c
+	    printf("hell")
+31d60710fedc517716edbda74759f17e|file:///home/zhangjian/.config/nvim/nerdtree.vim|24|21|V|vim
+	call ToggleNerdTree()
+6770cc2d7bb26eb72895e6be0bf717a2|file:///home/zhangjian/.local/bin/PathPicker/src/pathpicker/line_format.py|86|21|V|python
+	        # print(line)
+b0eb5377d3f397d00f87184d048e6f2d|file:///home/zhangjian/.config/nvim/nerdtree.vim|24|3|v|vim
+	autocmd
+dfc03b0aafacd2a65f53712e53bc6407|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|80|10|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b f
+a1029732b29186ccae672a02b4d3f4de|file:///extra/zhangjian/prj/egs-openbmc/oe-init-build-env|5|1|v|sh
+	# Copyright (C) 2006-2011 Linux Foundation
+	#
+	# SPDX-License-Identifier: GPL-2.0-or-later
+	#
+	
+	#
+	#
+3aedd571ad8ac2e32695f386d957f07d|file:///extra/zhangjian/prj/egs-openbmc/oe-init-build-env|6|1|v|sh
+	#
+	# SPDX-License-Identifier: GPL-2.0-or-later
+	#
+	
+	#
+	#
+f927a032889b91fbbf0367021bbbfa9a|file:///home/zhangjian/.local/bin/clipboard-provider|25|23|V|sh
+	                echo $p
+21d4a79af0d922153bdb15a2928471a4|file:///home/zhangjian/.local/bin/clipboard-provider|41|11|V|sh
+	    echo ""
+33637030900ec873be171213773c612e|file:///home/zhangjian/.local/bin/clipboard-provider|41|16|V|sh
+	    echo "root$TMUX"
+38a5e65650dc89c27bd3cb19f4c1562a|file:///home/zhangjian/.local/bin/clipboard-provider|56|1|v|sh
+	osc52-provider() {
+	    # HACK: this ignores stdin and looks directly at the base64 buffer
+	    case $1 in
+	        copy) [[ -n "$TTY" ]] && printf $'\e]52;c;%s\a' "$buffer" > "$TTY" ;;
+	        paste) return 1 ;;
+	    esac
+	}
+	
+	l
+c8510429c750c515e28e8ea18280ad5d|file:///home/zhangjian/.local/bin/clipboard-provider|56|1|v|sh
+	osc52-provider() {
+	    # HACK: this ignores stdin and looks directly at the base64 buffer
+	    case $1 in
+	        copy) [[ -n "$TTY" ]] && printf $'\e]52;c;%s\a' "$buffer" > "$TTY" ;;
+	        paste) return 1 ;;
+	    esac
+	}
+	
+	local-provider() {
+	    case $1 in
+	        copy) internal > $LOCAL_STORAGE ;;
+	        paste) cat $LOCAL_STORAGE && return 0;;
+	    esac
+	}
+	
+	x
+0a72e6ae0028de419cacb36f98fc623d|file:///home/zhangjian/.local/bin/clipboard-provider|56|1|v|sh
+	osc52-provider() {
+	# HACK: this ignores stdin and looks directly at the base64 buffer
+	case $1 in
+	    copy) [[ -n "$TTY" ]] && printf $'\e]52;c;%s\a' "$buffer" > "$TTY" ;;
+	    paste) return 1 ;;
+	esac
+	}
+	
+	
+a21a04a6d74742804fae140fd710bd4e|file:///home/zhangjian/.tmux.conf.local|316|1|v|tmux
+	# -- clipboard -----------------------------------------------------------------
+	
+	# in copy mode, copying selection also copies to the OS clipboard
+	#
+f6d45589f1249094959ddd9d6aaea69e|file:///home/zhangjian/.local/bin/clipboard-provider|79|1|v|sh
+	my-provider(){
+	
+	}
+	
+	
+44981cc7f8c71ef3a9b8358234fc23f9|file:///tmp/tmux/test.py|130|1|V|python
+	            stdout_bytes.write("test ")
+62c8acfbec68e081ad1faed5c3c8f423|file:///home/zhangjian/.tmux.conf|1|52|V|tmux
+	set-option -ag terminal-overrides ",xterm-256color:Ms"
+ecb0b7ef807eaef5631ed322995aca1d|file:///home/zhangjian/.tmux.conf|1|52|V|tmux
+	set -ag terminal-overrides ",*256col*:colors=256:Tc"
+b1e7406d71b95a6893b8b465a3eed8a2|file:///home/zhangjian/.local/bin/fpp|3|1|v|sh
+	#
+	# This source code is licensed under the MIT license found in the
+	# LICENSE file in the root directory of this source tree.
+	
+	# get the directory of this script so we can execute the related python
+	# http://stackoverflow.com/a/246128/212110
+	S
+936fa76065fd9017d17baec633087ba8|file:///home/zhangjian/.local/bin/fpp|2|1|v|sh
+	# Copyright (c) Facebook, Inc. and its affiliates.
+	#
+	# This source code is licensed under the MIT license found in the
+	# LICENSE file in the root directory of this source tree.
+	
+	
+98304216e18b1e8cffc0ef825757be0e|file:///home/zhangjian/.config/nvim/init.vim|218|11|V|vim
+	if executable('clipboard-provider')
+e96d8afc259593a20838480dfb84400b|file:///home/zhangjian/.config/nvim/init.vim|229|5|V|vim
+	endif
+b4ec6620e308d9da848bd812645a62c9|file:///home/zhangjian/.config/nvim/init.vim|221|23|v|vim
+	osc-set-selection.sh'
+13ee47354f40939c6a9d5cbbe011a7e6|file:///home/zhangjian/.config/nvim/init.vim|222|23|v|vim
+	clipboard-provider copy'
+9e9f3d70bd8c8957627eada96d967706|file:///home/zhangjian/.config/nvim/init.vim|225|33|v|vim
+	provider
+bbc4df4047bb91ef515ce03a6317fd65|file:///home/zhangjian/.config/nvim/init.vim|226|23|v|vim
+	clipboard
+2f73afad7f2480e30b484a13d08c8c95|file:///home/zhangjian/.config/nvim/init.vim|226|32|v|vim
+	paste
+cfde17a5e0e48fa48340d97c77c215d3|file:///home/zhangjian/.config/nvim/init.vim|226|23|v|vim
+	provider 
+7b9251bc788b44ea37102d4846881f79|file:///home/zhangjian/.local/bin/osc-set-selection.sh|27|1|v|sh
+	b64=`echo -n "$text" | base64 -w 0`
+	
+	targets=`echo -n "$2" | sed 's/[^scp01234567]//g'`
+	
+	#
+a8873d0fd10cfde2d814f8eca6b22af1|file:///home/zhangjian/.local/bin/fpp|4|1|v|sh
+	# This source code is licensed under the MIT license found in the
+	# LICENSE file in the root directory of this source tree.
+	
+	# get the directory of this script so we can execute the related python
+	# http://stackoverflow.com/a/246128/212110
+	S
+1143bc1003abdee75624d039e3fb6544|file:///home/zhangjian/.local/bin/fpp|13|1|v|sh
+	  SOURCE="$(readlink "$SOURCE")"
+	  # if $SOURCE was a relative symlink, we need to resolve it relative to
+	  # the path where the symlink file was located
+	  [[ $SOURCE != /* ]] && SOURCE="$BASEDIR/$SOURCE"
+	done
+	BASEDIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
+	
+	
+d47b68594744de19660cf5710ed24ca4|file:///home/zhangjian/.local/bin/fpp|16|1|V|sh
+	  [[ $SOURCE != /* ]] && SOURCE="$BASEDIR/$SOURCE"
+1d549cc2a0a8119272a8e0af3624e09f|file:///home/zhangjian/.config/nvim/leader.vim|7|1|V|vim
+	nmap <leader>rn <Plug>(coc-rename)
+2b73524ef10fa4359e41ba95dad700d1|file:///home/zhangjian/.config/nvim/init.vim|1|1|v|vim
+	" 设置显示行号
+	set number
+	" 设置使用相对行号
+	set relativenumber
+	set ts=4
+	c
+b1c4630beaf447f4345d8e7ddce0177a|file:///home/zhangjian/.config/nvim/init.vim|6|1|v|vim
+	oolorscheme desert
+	
+	" 忽略大小写
+	set ignorecase
+	
+	"set shiftwidth=2
+	s
+1c1119e981cbe480d8d916bc981c2c28|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|61|1|V|sh
+	        echo "$DedicateNicInterfaceName already primary"
+0d0afa65230a3d0a45c136349a910c12|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|100|1|V|sh
+	    echo "Info: NetworkDetectMode is $NetworkDetectMode, so exit normally"
+7b46cb5d18655263ff6ece8768833f66|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|111|72|V|sh
+	        echo "Info: Get DedicateNicLinkState $DedicateNicInterfaceName, "
+5b664072f3e9ef320657e9b8bd84bf4d|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|110|1|V|sh
+	    echo "Info: Get DedicateNicLinkState $DedicateNicInterfaceName is $DedicateNicInterfaceName"
+c1ecc51f10c71bc6d544233f4bf701f3|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|117|21|v|sh
+	Dedicate
+27a1bb0a28f3f5bcb1727736e54d7b31|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|117|66|v|sh
+	Get 
+3fa66d8dc61ecb0984dcebba0efef5da|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|117|21|v|sh
+	DedicateN
+31b094bfb65dc61ec93c5c5448a82bb5|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|86|10|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false`
+f213cb32aaa9f8be333f579d8ee4014e|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|86|10|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false
+526d038f00318a55daf1557b20813b47|file:///home/zhangjian/.config/nvim/leader.vim|9|13|V|vim
+	nnoremap <c-x> "+y
+551b723eafd6a31d444fcb2f5920fbd3|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|45|11|v|sh
+	INFO
+4059b0251f66a18cb56f544728796875|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|65|11|v|sh
+	Info
+656c8db2e885bbe1a326c631482e0617|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|93|1|V|sh
+	        return 1
+9d626116e08eaed3d94480a770ced0da|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|120|10|V|sh
+	        if
+3f9178c25b78ed8bed19091bcb62e266|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|120|15|v|sh
+	condition
+2c132262a98035d7e87be7ff6c0f6a80|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|123|15|V|sh
+	        exit -1
+bc95dfc14146aa23e43f2ea7af04d310|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|121|9|V|sh
+	            
+9e01889589a98303ef10c5cc58a5ce9b|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|120|9|v|sh
+	if [[ $? != 0 ]]; then
+	            exit -1
+	        fi
+	
+fb16f9a4c119471c83510e8d54f0b8d8|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|128|1|V|sh
+	            echo "Error: error set dedicate link"
+6f1c045e1857275cefea3024de138c97|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|67|5|v|sh
+	ret=`busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false`
+	    if [ $? != 0 ]; then
+	        echo "Error: error remove share nic config"
+	        return -1
+	    fi
+	    ret=`busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true`
+	    if [ $? != 0 ]; then
+	        echo "Error: error set dedicate to primary"
+	        return -1
+	    fi
+	
+	
+b339663c1f1e694270ba417c8b55eb2e|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|72|83|v|sh
+	DedicateNicInterfaceName
+0d88cf49bf878daed20cd6de999463cb|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|24|V|sh
+	    if [ $? != 0 ]; then
+63738c081527b789eee19c61de3caec2|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|51|V|sh
+	        echo "Error: error remove share nic config"
+b1fe2c13b64701bc371fa6a112c8ae2b|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|17|V|sh
+	        return -1
+f3445f1cbedd7a7cb3aba842fea2cb97|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|6|V|sh
+	    fi
+32fba2d7964d46fa54eff57b9f3f491e|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|69|6|V|sh
+	        echo "Error: error set dedicate to primary"
+b6befcc06f30d611e346fd6c1b3e3dd8|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|67|5|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/eth1 xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false && busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/eth0 xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true
+	
+b33e13ac550952799e2feea7ca22ceba|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|1|V|cpp
+	    std::cout << "jian test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+e0c73f426acb26185569c713dad043b6|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1094|1|V|cpp
+	        std::cout << "jian test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+35f2398698759b09d15a4e0a1117d0e7|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|19|v|cpp
+	jian
+f3754baf85495d434b640c13be0b487b|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1097|27|v|cpp
+	jian          
+d1ce6155e4f509d12154446a8f88f873|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|67|5|V|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/eth1 xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false && busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/eth0 xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true
+065159707fdec2587a2252ce8e2b852b|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|33|V|cpp
+	    std::cout << "jian 1test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+	    if (EthernetInterface::bond() != "")
+d9913d8712cefab542b1cc7775029268|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1092|33|V|cpp
+	    if (EthernetInterface::bond() != "")
+6f5ecc16326242bb7f0a1930cf751a9b|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1092|5|V|cpp
+	    {
+ea5a1cbe764918679997181a3ea281d3|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1104|5|V|cpp
+	    }
+cb4fa410f1e158cc4f9a8df9454ad1e7|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1100|5|V|cpp
+	        stream.close();
+1072edf0d0ed6864740700e9a3972415|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1103|9|V|cpp
+	        return;
+aafa5f27fefd6c0632d0b08b35716c7d|file:///home/zhangjian/.zshrc|146|1|v|zsh
+	function 
+bb512afe848f39bc7ad918528ed7e807|file:///home/zhangjian/.zshrc|146|1|v|zsh
+	function g220b_qemu () {
+	     /extra/zhangjian/prj/qemu/build/install-g220b/bin/qemu-system-arm -M g220b-bmc -nographic -drive file=obmc-phosphor-image-g220b.static.mtd,format=raw,if=mtd -net nic -net user,hostfwd=:127.0.0.1:2222-:22,hostfwd=:127.0.0.1:1443-:443,hostfwd=udp::1623-:623,hostname=qemu 
+	}
+438a0edd713a082a3963d6a802887495|file:///home/zhangjian/.zshrc|146|1|v|zsh
+	function g220b_qemu () {
+	     /extra/zhangjian/prj/qemu/build/install-g220b/bin/qemu-system-arm -M g220b-bmc -nographic -drive file=obmc-phosphor-image-g220b.static.mtd,format=raw,if=mtd -net nic -net user,hostfwd=:127.0.0.1:2222-:22,hostfwd=:127.0.0.1:1443-:443,hostfwd=udp::1623-:623,hostname=qemu 
+	}
+	
+3b7d20bfeed6ddc434fa687871f47a85|file:///home/zhangjian/.zshrc|146|10|v|zsh
+	g220b
+abc07c39780a0e9a5e6e0f31dc60b757|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1070|26|v|cpp
+	interfaceName() 
+3f3e6d90d65e2596ac7a14f8ede70192|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|10|v|cpp
+	cout
+b06af0a0c2a48664247ce0966e99eada|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|10|V|cpp
+	    std::cout << "jian 1test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+24002ab6048945ff2f50a65908f6c754|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|10|V|cpp
+	    std::cout << "jian 2test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+a2c3c0221220c6ad9d8f6599689211f4|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|10|V|cpp
+	    std::cout << "jian 4test" << interfaceName() << std::endl; 
+ea73b6f9d2633f6301510487565e5f16|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1093|10|V|cpp
+	        std::cout << "jian 3test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+106f16a8fde7ae2ecac302abf5b49a90|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1091|10|v|cpp
+	brief
+45a5d8f9590295924b4f2610a6a7fbaf|file:///home/zhangjian/.config/nvim/nerdtree.vim|24|40|v|vim
+	&& call SyncTree()
+	
+456ea0da9b7c5564bc08c8ff7dc62c7a|file:///home/zhangjian/.config/nvim/nerdtree.vim|24|1|V|vim
+	autocmd VimEnter * NERDTree | wincmd p 
+0b6de8f986ab196c6f8ddb181145b47b|file:///home/zhangjian/.config/nvim/nerdtree.vim|25|21|V|vim
+	autocmd VimEnter * if
+f6e09f96170cf392fea35787e3a31179|file:///home/zhangjian/.config/nvim/nerdtree.vim|25|27|V|vim
+	autocmd VimEnter * if argccall SyncTree()
+08ef2f7755657b1e9522b71aa5b273a5|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/linux-aspeed/oe-local-files/aspeed-bmc-bytedance-g220b.dts|121|22|v|dts
+	<4>;
+636c68a851339aac684fab0acbb397a7|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/linux-aspeed/oe-local-files/aspeed-bmc-bytedance-g220b.dts|123|11|v|dts
+	openbmc-flash-layout-64.dtsi
+28a60cc52796ff118bdae7b28f6db219|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1088|1|v|cpp
+	
+	    // write the network section
+	    stream << "[Network]\n";
+	
+	    if (primarySlave())
+	    {
+	        stream << "Bond=" << EthernetInterface::bond() << "\n";
+	        stream << std::boolalpha << "PrimarySlave=" << primarySlave()
+	            << "\n";
+	        stream.close();
+	        return;
+	    }
+	        // if the interface is bound to 'bond', there is no need to do more
+	 
+36fa1a64945a8cfe9a19f64257e2a951|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|91|5|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false
+	    i
+2f76f91ca08ecb2c8e726b05e2ce8f0e|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|92|1|V|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false
+8404dff87117eb65e316a6aa7a6171dd|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|93|8|V|sh
+	         
+32e525f3a955d6d045516c331259f77f|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|92|1|V|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface Bond s $BondInterfaceName
+	    if [[ $? != 0 ]]; then
+	       echo "Error: error set bond" 
+	    fi
+b17c2cc88436655368f5221c47d2bb2c|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/tmp/work/armv7ahf-vfpv4d16-openbmc-linux-gnueabi/bmcweb/1.0%2Bgit999-r0/temp/run.do_unpack|10|1|V|
+	    print(src_uri)
+ff419085c3c6242dc86db0d3f9961ceb|file:///home/zhangjian/.gitconfig|18|1|V|gitconfig
+	[difftool "vimdiff"]
+8962dcf95d9d796ce0efc1fd2389a126|file:///home/zhangjian/.gitconfig|18|1|V|gitconfig
+		cmd = vimdiff
+5b41c1fa794c1ab020fa08eb2255c2f1|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1093|33|V|cpp
+	        std::cout << "jian 2test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+745f03bcbb7dd6b0a2a994e174d5195f|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1095|27|V|cpp
+	            std::cout << "jian 3test ~~~" << EthernetInterface::bond().c_str() << std::endl;
+d2d810cf6a8344af8c4dbd5816c8b5bc|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/src/ethernet_interface.cpp|1095|5|V|cpp
+	            stream << "Bond=" << EthernetInterface::bond() << "\n";
+600c7fba32102c285e3f9eb57a090b97|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|1|v|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface Bond s $BondInterfaceName
+	    if [[ $? != 0 ]]; then
+	       echo "Error: error set bond" 
+	    fi
+	
+	
+abee2bf45e9097eec0d2cc87550eb997|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|74|5|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true
+	    if [ $? != 0 ]; then
+	        echo "Error: error set dedicate to primary"
+	        return -1
+	    fi
+	
+	
+7e7d74763ac2f8fa8335060ccb6b50f4|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|5|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface Bond s $BondInterfaceName
+	    if [[ $? != 0 ]]; then
+	       echo "Error: error set bond" 
+	    fi
+	
+4954a17222c282084e2edcad9c86f039|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|45|V|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface Bond s $BondInterfaceName
+076e4b7c83399b946bde2ec3d107cae2|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|26|V|sh
+	    if [[ $? != 0 ]]; then
+3c5795016b4b27e72a0a2098e3992c12|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|26|V|sh
+	       echo "Error: error set bond" 
+2338e7cb5e50efdf84a0d6ce5d6ffd7d|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|5|V|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface Bond s $BondInterfaceName
+	    if [[ $? != 0 ]]; then
+4b286869aae3bb233e6716ce8c997dff|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|5|v|sh
+	busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface Bond s $BondInterfaceName
+	    if [[ $? != 0 ]]; then
+	       echo "Error: error set bond" 
+	    fi
+	
+	
+b888c9ab2b2555a6506d5a242c14361e|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|4|v|sh
+	 busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface NICEnabled b false
+	
+8bea79af6807e469ecf055ec971fdbc4|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|80|5|v|sh
+	busctl set-property xyz.openbmc_project.Network 
+0e7a601e6ec50d0f7aca59c3c6272fe1|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|98|12|v|sh
+	set-property xyz.openbmc_project.Network /x
+0db7ba11c0c61ee484cbd90c98634e90|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|81|9|v|sh
+	/xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true
+a16e7ac75a5637cf9b626652cc69d771|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|82|9|v|sh
+	xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true
+f1b9cc2180e36e286fdefa08e3efde06|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|117|70|v|sh
+	true          
+20e853a42da9885b27ce176323fe23ce|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|80|1|V|sh
+	    busctl set-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true \
+0517e3430152db5201315f9a168967ac|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|107|12|V|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface Bond s $BondInterfaceName
+6421cc4382e0d11c2b4b436a7f353bb6|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|68|1|v|sh
+	    busctl set-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$ShareNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface NICEnabled b false && \
+	        busctl set-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$ShareNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false
+	
+	    if [ $? != 0 ]; then
+	        echo "Error: error remove share nic config"
+	        return -1
+	    fi
+	    
+	    busctl set-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true && \
+	        busctl set-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface NICEnabled b true \
+	
+	    if [ $? != 0 ]; then
+	        echo "Error: error set dedicate to primary"
+	        return -1
+	    fi
+	
+	
+a5c4bd746c43161dbdf85cc592238f4f|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|107|1|v|sh
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$DedicateNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b false
+	    if [ $? != 0 ]; then
+	        echo "Error: error remove dedicate nic config"
+	        return -1
+	    fi
+	
+	    busctl set-property xyz.openbmc_project.Network /xyz/openbmc_project/network/$ShareNicInterfaceName xyz.openbmc_project.Network.EthernetInterface PrimarySlave b true
+	    if [ $? != 0 ]; then
+	        echo "Error: error set share to primary"
+	        return -1
+	    fi
+	    return 0
+26b5bc7e6b1ac6bde47fe9f1b48fc35e|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|108|39|v|sh
+	ShareNicInterfaceName
+0cf31b2c283ce3431794586df7b0996d|file:///extra/zhangjian/prj/egs-openbmc/build/g220b/workspace/sources/phosphor-network/oe-local-files/network-detect|125|1|v|sh
+	    
+e92f1f6d33dc5f739fa30a4925f0b1f0|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/ipmi/phosphor-ipmi-net_%25.bbappend|1|1|V|
+	ALT_RMCPP_IFACE = "bond1"
+	SYSTEMD_SERVICE:${PN} += " \
+e6a863d13801567155623771264c8bfe|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220a/recipes-phosphor/ipmi/phosphor-ipmi-net_%25.bbappend|7|1|V|
+	RMCPP_IFACE = "bond1"
+417db73d7f1f2babd0fd79cb50ef307b|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220a/recipes-phosphor/ipmi/phosphor-ipmi-net_%25.bbappend|1|1|v|
+	FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
+	
+	SRC_URI += " \
+	    file://wait-for-device.conf \
+	"
+	
+	RMCPP_IFACE = "bond1"
+	
+	
+0ca58ec2621dec259c70193bd070e22b|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/ipmi/phosphor-ipmi-net_%25.bbappend|1|1|v|
+	ALT_RMCPP_IFACE = "bond1"
+	SYSTEMD_SERVICE:${PN} += " \
+	     ${PN}@${ALT_RMCPP_IFACE}.service \
+	     ${PN}@${ALT_RMCPP_IFACE}.socket \
+	     "
+95c882d40cd11cb1b7c2e35c1737b1d1|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/ipmi/phosphor-ipmi-net_%25.bbappend|3|1|v|
+	SRC_URI += " \
+	    file://wait-for-device.conf \
+	"
+	
+	
+b5116be5e3d87f2d851af53f44dc1388|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/ipmi/phosphor-ipmi-net_%25.bbappend|1|1|V|
+	FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
+34cf6ce9e12166354b3ecc9c1bb14c20|file:///extra/zhangjian/prj/egs-openbmc/.git/COMMIT_EDITMSG|7|22|V|gitcommit
+	ps | grep -i net-ipmid
+c674feebd147160397a4bd011c2d6262|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|5|19|V|
+	    file://env.conf \
+4b6e1a921fb58a3ed6f5343a61783c51|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|5|19|V|
+	    file://network-detect \
+bdc3a7d9bfbdf2e887cad13756dfcfc9|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|5|19|V|
+	    file://network-detect.service \
+6a7a810e5d4f2c836fac73d0d857b205|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|8|1|V|
+	    ${systemd_system_unitdir}/xyz.openbmc_project.Network.service.d/env.conf \
+e866b5773227ecf9077f4fc228c103a2|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|7|1|v|
+	FILES:${PN}:append = " \
+	 
+9ee0981061e9094de39018c8aff234b4|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|7|1|V|
+	   ${systemd_system_unitdir}/network-detect \
+e3b4d0bc7914e1b154f8aea6dbf49818|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|9|1|V|
+	    network-detect.service \
+5d976468587823545963d4d58019102c|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|14|1|V|
+	    install -m 0644 ${WORKDIR}/network-detect.service ${D}${systemd_system_unitdir}
+1cadb2025220a57ecb48cd2a373051eb|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|14|1|V|
+	    install -d ${D}${systemd_system_unitdir}/xyz.openbmc_project.Network.service.d
+0c8fee8ed5acd72b6faec1e2c76c76d8|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|15|1|V|
+	    install -d ${D}${bindir}
+82c4ba5b25e7073c0cce4895c07c9a31|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|15|1|V|
+	    install -m 0755 ${WORKDIR}/network-detect ${D}${bindir}
+60e35e7a71f1b30304bc64be2b29427b|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network_%25.bbappend|14|1|V|
+	    install -m 0644 ${WORKDIR}/env.conf ${D}${systemd_system_unitdir}/xyz.openbmc_project.Network.service.d/env.conf
+7af44e6025e02723726da20dad2e4dfc|file:///extra/zhangjian/prj/egs-openbmc/.git/COMMIT_EDITMSG|18|5|v|gitcommit
+	Get Info , PACKAGE :  ffffffff, IFINDEX :  3
+	    Package has id : 0
+	    This package is forced
+	    Channel Active : 0
+	    Channel is forced
+	    Channel Major Version : f1f1f000
+	    Channel Minor Version : 0
+	    Channel Version Str :216.0.2
+	
+	
+b5b93b6612f2466e57de05e7edf120ed|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|3|25|V|sh
+	BondInterfaceName="bond1"
+64cbe8eb09df8cbb91e3ee9936205618|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|62|5|v|sh
+	primary=`busctl get-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave \
+	        | awk -F " " '{printf $2}'`
+	
+	
+29c898f2497dc2999564208ba24a6a8d|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|62|1|v|sh
+	    primary=`busctl get-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave \
+	        | awk -F " " '{printf $2}'`
+	
+	    enable=`busctl get-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave \
+	        | awk -F " " '{printf $2}'`
+	
+	    if [ "$primary" == "true" ] && [ "$enable" == "true" ]; then
+	        echo "$DedicateNicInterfaceName already primary"
+	        return 0
+	    fi
+	 
+917531bb3c81b0e4925fb1801295dd5a|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|107|1|v|sh
+	    ret=`busctl get-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$ShareNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave\
+	        | awk -F " " '{printf $2}'`
+	    if [ $? == 0 ] && [ "$ret" == "true" ]; then
+	        echo "$ShareNicInterfaceName already primary"
+	        return 0
+	    fi
+	
+	
+102d4d5b1bb5510be4c868ec84cacbf4|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|62|4|v|sh
+	 primary=`busctl get-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave \
+	        | awk -F " " '{printf $2}'`
+	
+	    enable=`busctl get-property xyz.openbmc_project.Network \
+	        /xyz/openbmc_project/network/$DedicateNicInterfaceName \
+	        xyz.openbmc_project.Network.EthernetInterface PrimarySlave \
+	        | awk -F " " '{printf $2}'`
+	
+	    if [ "$primary" == "true" ] && [ "$enable" == "true" ]; then
+	        echo "$DedicateNicInterfaceName already primary"
+	        return 0
+	    fi
+	    
+	    
+55b67c207f37923076e2daa165017e82|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|109|5|v|sh
+	 already primary"
+7bb0edd98f22430a03b67f853e83c2ca|file:///extra/zhangjian/prj/egs-openbmc/meta-bytedance/meta-g220b/recipes-phosphor/network/phosphor-network/network-detect|121|1|v|sh
+	        
+e1215997b7ab45dfc0a7dd964d90e510|file:///tmp/phosphor-network_%25.bbappend|6|1|v|
+	    file://network-detect \
+	    file://network-detect.service \
+	"
+5b2213892396e43eebe933305b11c2a4|file:///tmp/phosphor-network_%25.bbappend|10|1|v|
+	FILES:${PN}:append = " \
+	    ${systemd_system_unitdir}/xyz.openbmc_project.Network.service.d/env.conf \
+	    ${systemd_system_unitdir}/network-detect \
+	"
+cde4c01f3daf1efdc84948d2a3de977a|file:///tmp/phosphor-network_%25.bbappend|26|1|v|
+	    install -d ${D}${bindir}
+	    install -m 0755 ${WORKDIR}/network-detect ${D}${bindir}
+	}
+a001ff815855c4fbeb40423b411bb429|file:///extra/zhangjian/prj/egs-openbmc/.git/COMMIT_EDITMSG|18|1|v|gitcommit
+	1. Share nic and dedicate nic all linked.
+	Dedicate nic(eth0) is enslaved, share nic(eh1) is off.
+	networkctl
+	IDX LINK  TYPE     OPERATIONAL      SETUP
+	  1 lo    loopback carrier          unmanaged
+	  2 bond0 bond     off              unmanaged
+	  3 eth0  ether    enslaved         configured
+	  4 eth1  ether    off              unmanaged
+	  5 bond1 bond     degraded-carrier configured
+	
+	
+867b39d5943888f2087cc7736af503b9|file:///home/zhangjian/.config/nvim/init.vim|219|1|V|vim
+	source $HOME/.config/nvim/leader.vim
+0ff46e33052bcec9127641c2f2ed81ca|file:///home/zhangjian/.config/nvim/init.vim|1|1|V|vim
+	" 设置显示行号
+76b57ed4aba392da035d059591af5606|file:///home/zhangjian/.config/nvim/coc.explor.vim|2|1|v|vim
+	nnoremap <leader> :CocCommand explorer<CR>
+	let which_key_map2 ='file tree'
+	function! s:coc_list_current_dir(args)
+	    let node_info = CocAction('runCommand', 'explorer.getNodeInfo', 0)
+	    execute 'cd ' . fnamemodify(node_info['fullpath'], ':h')
+	    execute 'CocList ' . a:args
+	endfunction
+	
+	function! s:init_explorer(bufnr)
+	    call setbufvar(a:bufnr, '&winblend', 50)
+	endfunction
+	
+	function! s:enter_explorer()
+	    if !exists('b:has_enter_coc_explorer') && &filetype == 'coc-explorer'
+	        " more mappings
+	        nmap <buffer> <Leader>fg :call <SID>coc_list_current_dir('-I grep')<CR>
+	        nmap <buffer> <Leader>fG :call <SID>coc_list_current_dir('-I grep -regex')<CR>
+	        nmap <buffer> <C-p> :call <SID>coc_list_current_dir('files')<CR>
+	        let b:has_enter_coc_explorer = v:true
+	    endif
+	    " statusline
+	    setl statusline=coc-explorer
+	endfunction
+	
+	augroup CocExplorerCustom
+	    autocmd!
+	    autocmd BufEnter call <SID>enter_explorer()
+	augroup END
+	
+	" hook for explorer window initalized
+	function! CocExplorerInited(filetype, bufnr)
+	    " transparent
+	    call setbufvar(a:bufnr, '&winblend', 10)
+	e
+6a99d926453b0d460eb946115f68c8e5|file:///home/zhangjian/.config/nvim/coc.explor.vim|2|1|V|vim
+	ndfunction
+93ff2e8ab54ee83dee7d8407dbdcbe9f|file:///home/zhangjian/.config/nvim/coc.explor.vim|1|1|V|vim
+	" coc-explorer
+4efa089e00d9bb5922c68869f4cad321|file:///home/zhangjian/.config/nvim/coc.explor.vim|35|1|V|vim
+	  autocmd BufEnter * call <SID>enter_explorer()
+664d239ff5c4dff15a1bc7d6fecd6484|file:///home/zhangjian/.config/nvim/coc.explor.vim|38|1|V|vim
+	  autocmd FileType coc-explorer call <SID>init_explorer()
+1fe887c2582f2bf721ae7769ec7022cb|file:///home/zhangjian/.config/nvim/init.vim|220|1|V|vim
+	source $HOME/.config/nvim/coc.explor.vim
+b9e5cce31cff407c3651611481947c16|file:///home/zhangjian/.config/nvim/nerdtree.vim|9|16|V|vim
+	    NERDTreeFind | wincmd 
+a822f9186c6f724cf4581022801b2f40|file:///home/zhangjian/.config/nvim/nerdtree.vim|9|1|V|vim
+	    NERDTreeFind | wincmd p
+	    " NERDTreeFind
+849a7706aed8b2185832d7b02818681d|file:///home/zhangjian/.config/nvim/nerdtree.vim|9|17|V|vim
+	    NERDTreeFind 
+1630e421df1263323088587d2c028ae3|file:///home/zhangjian/.config/nvim/nerdtree.vim|1|1|v|vim
+	" Check if NERDTree is open or active
+	function! IsNERDTreeOpen()
+	  return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
+	endfunction
+	" Call NERDTreeFind iff NERDTree is active, current window contains a modifiable
+	" file, and we're not in vimdiff
+	" function! SyncTree()
+	"   if &modifiable && IsNERDTreeOpen() && strlen(expand('%')) > 0 && !&diff
+	"     NERDTreeFind
+	"     wincmd p
+	"   endif
+	" endfunction
+	" Highlight currently open buffer in NERDTree
+	" autocmd BufEnter * call SyncTree()
+	 
+0e194a74ede0b403826f641179d51807|file:///home/zhangjian/.config/nvim/nerdtree.vim|1|1|v|vim
+	" Check if NERDTree is open or active
+	function! IsNERDTreeOpen()
+	  return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
+	endfunction
+	" Call NERDTreeFind iff NERDTree is active, current window contains a modifiable
+	" file, and we're not in vimdiff
+	" function! SyncTree()
+	"   if &modifiable && IsNERDTreeOpen() && strlen(expand('%')) > 0 && !&diff
+	"     NERDTreeFind
+	"     wincmd p
+	"   endif
+	" endfunction
+	" Highlight currently open buffer in NERDTree
+	
+8edbde01b01962b9a137cc6d33e0b2dc|file:///home/zhangjian/.config/nvim/nerdtree.vim|41|1|v|vim
+	" Automatically close vim if only NERDTree left
+	autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+	 
+7172ac6d7696e6a282a8254c2a9df802|file:///home/zhangjian/.config/nvim/init.vim|222|1|v|vim
+	if executable('clipboard-provider')
+	  let g:clipboard = {
+	          \ 'name': 'myClipboard',
+	          \     'copy': {
+	          \         '+': 'clipboard-provider copy',
+	          \         '*': 'clipboard-provider copy',
+	          \     },
+	          \     'paste': {
+	          \         '+': 'clipboard-provider paste',
+	          \         '*': 'clipboard-provider paste',
+	          \     },
+	          \ }
+	endif
+f39d2e9a260e74fdc393101054728419|file:///home/zhangjian/.config/nvim/init.vim|220|1|V|vim
+	source $HOME/.config/nvim/snippets.vim
+eea70863998b66073f6465508687139a|file:///home/zhangjian/.config/nvim/init.vim|215|1|v|vim
+	set noshowmode
+	let g:echodoc_enable_at_startup = 1
+	
+	source $HOME/.config/nvim/coc.vim
+	s
+93e241a8330a3407d23832fa1eb89d15|file:///home/zhangjian/.config/nvim/init.vim|215|1|V|vim
+	set noshowmode
+	let g:echodoc_enable_at_startup = 1
+eba5cce52ae844f609b1301844b0c119|file:///home/zhangjian/.config/nvim/init.vim|212|1|v|vim
+	    \ }
+	
+	""" Configs for echodoc
+	set noshowmode
+	let g:echodoc_enable_at_startup = 1
+	
+	source $HOME/.config/nvim/coc.vim
+	s
+234ff1382f04ebbb8c6447c3051301e8|file:///home/zhangjian/.config/nvim/init.vim|212|1|V|vim
+	    \ }
+5e691317b1c5c13142ddb6383e1ba731|file:///home/zhangjian/.config/nvim/init.vim|214|1|v|vim
+	""" Configs for echodoc
+	set noshowmode
+	let g:echodoc_enable_at_startup = 1
+	
+	source $HOME/.config/nvim/coc.vim
+	s
+106bc2cf51f821b4bca132b4f158f726|file:///home/zhangjian/.config/nvim/clipboard.vim|3|6|v|vim
+	yy "+y
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      
+78f13304d808c699ecc219d338abb4fd|file:///home/zhangjian/.config/nvim/clipboard.vim|3|1|v|vim
+	vnoremap yy "+y
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      \     'copy': {
+	      \         '+': 'clipboard-provider copy',
+	      \         '*': 'clipboard-provider copy',
+	      \     },
+	 
+76c906e18b5fb4386a32dea8d0f91223|file:///home/zhangjian/.config/nvim/clipboard.vim|1|1|v|vim
+	if executable('clipboard-provider')
+	
+	vnoremap yy "+y
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      \
+17d2da05c6f9400c269971942e80fda0|file:///home/zhangjian/.config/nvim/clipboard.vim|3|12|v|vim
+	"+y
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      \     
+31f7d9b0ed01f06d6994fcf94fac5109|file:///home/zhangjian/.config/nvim/clipboard.vim|3|1|V|vim
+	vnoremap y "+y
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      \     'copy': {
+	      \         '+': 'clipboard-provider copy',
+	      \         '*': 'clipboard-provider copy',
+	      \     },
+	      \     'paste': {
+	      \         '+': 'clipboard-provider paste',
+da65bfddfd3e6db051490502fe12ee75|file:///home/zhangjian/.config/nvim/clipboard.vim|7|1|V|vim
+	      \     'copy': {
+	      \         '+': 'clipboard-provider copy',
+d8a509bbad8d530b561da00b4b88d4d5|file:///home/zhangjian/.config/nvim/clipboard.vim|3|1|V|vim
+	vnoremap y "+y
+02a8eb350a7c1e952280fbdbb82b7a99|file:///home/zhangjian/.config/nvim/clipboard.vim|9|1|V|vim
+	      \         '+': 'clipboard-provider copy',
+	      \         '*': 'clipboard-provider copy',
+	      \     },
+	      \     'paste': {
+	      \         '+': 'clipboard-provider paste',
+	      \         '*': 'clipboard-provider paste',
+	      \     },
+	      \ }
+	endif
+21b3bc3881367bbf5480995b8c075b26|file:///home/zhangjian/.config/nvim/clipboard.vim|8|1|V|vim
+	      \     'copy': {
+	      \         '+': 'clipboard-provider copy',
+	      \         '*': 'clipboard-provider copy',
+2d315d93c669459cd05669ef177c8533|file:///home/zhangjian/.config/nvim/clipboard.vim|6|1|V|vim
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+a554cb27d4023ddfb083a381cb363256|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	nnoremap yy "+y<cr>
+	
+	let g:clipboard = {
+b57cd9b7f4e587e8821fbd07056e7f20|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	nnoremap yy "+y<cr>
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      \     'copy': {
+	      \         '+': 'clipboard-provider copy',
+72a1f8fd1262782f08da80643518e684|file:///home/zhangjian/.config/nvim/clipboard.vim|1|1|V|vim
+	if executable('clipboard-provider')
+	
+99ca0ab3c30d97366557b5373f5b8a08|file:///home/zhangjian/.config/nvim/clipboard.vim|3|14|v|vim
+	y
+	nnoremap yy "+y<cr>
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      \     'copy': {
+	      \         '+': 'clipboard-provider copy',
+	      \         '*
+1f979ae4dc2a02798bfe779411c2403e|file:///home/zhangjian/.config/nvim/clipboard.vim|3|1|V|vim
+	" 可视模式下, 使用y 替代 "+y, 可以复制到系统剪切板 
+	vnoremap y "+y
+54616b57cbc0cf67ad8a39a9924df039|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	vnoremap y "+y
+	nnoremap yy "+y<cr>
+d4e364a6eb3601bd6ffb088cb3920487|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	vnoremap y "+y
+	nnoremap yy "+y<cr>
+	
+3b1e7d262fa4ef94c4ef677faa60e29a|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	vnoremap y "+y
+	nnoremap yy "+y<cr>
+	
+	let g:clipboard = {
+71c128097cb645052b9b3e8a6ff6a5bc|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	vnoremap y "+y
+	nnoremap yy "+y<cr>
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+a64b1b91bc671b2ae32383fcadb95995|file:///home/zhangjian/.config/nvim/clipboard.vim|5|1|V|vim
+	nnoremap yy "+y<cr>
+	
+30ba1a81464512c2bf792a9db29dfc2b|file:///home/zhangjian/.config/nvim/leader.vim|7|1|V|vim
+	nmap <leader>rn <Plug>(coc-rename)
+	nmap <leader>hi :History<cr>
+9dd5f7c1729159502168d71f2389abfa|file:///home/zhangjian/.config/nvim/leader.vim|5|1|V|vim
+	
+	" coc rename
+23301983901c0b629593957286cdc387|file:///home/zhangjian/.config/nvim/leader.vim|4|1|V|vim
+	nnoremap <leader>y <esc>:<C-u>CocList -A --normal yank<cr>
+	
+226d7da6221b02980990f7f6327aa49b|file:///home/zhangjian/.config/nvim/leader.vim|6|1|V|vim
+	" coc rename
+	nmap <leader>rn <Plug>(coc-rename)
+538949337d81cb5962e2cb548e3daff9|file:///home/zhangjian/.config/nvim/clipboard.vim|6|1|V|vim
+	nnoremap yy "+y<right>
+a2f91af1c42cdcc4ff0b3edae1b48567|file:///home/zhangjian/.config/nvim/clipboard.vim|6|1|V|vim
+	nnoremap yy "+yy
+f801bb661cd8253e8bc25e47f23c1144|file:///home/zhangjian/.config/nvim/clipboard.vim|6|1|V|vim
+	nnoremap yy "+yy
+	
+a9fc2ef2cf4153203dba77e13f68ec63|file:///home/zhangjian/.config/nvim/clipboard.vim|6|1|V|vim
+	nnoremap yy "+yy
+	
+	let g:clipboard = {
+1af8c7bfec64a10be13185ea51cbf791|file:///home/zhangjian/.config/nvim/clipboard.vim|6|1|V|vim
+	nnoremap yy "+yy
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+eb52337c2117e2bd303646ef0f3f65e5|file:///home/zhangjian/.config/nvim/clipboard.vim|6|1|V|vim
+	nnoremap yy "+yy
+	
+	let g:clipboard = {
+	      \ 'name': 'myClipboard',
+	      \     'copy': {
+e076437d46b6c029325ec8d248173199|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	nnoremap y "+y
+	" 普通模式下, 使用yy 代替"+y<cr>
+e7a1ec6f1da2d6aea17ed2c0851b88ae|file:///home/zhangjian/.config/nvim/clipboard.vim|4|1|V|vim
+	nnoremap y "+y
+f745ddd70133dc3980a0db74d5ebda2f|file:///home/zhangjian/.config/nvim/clipboard.vim|3|1|V|vim
+	" 可视模式下, 使用y 替代 "+y, 可以复制到系统剪切板 
+	nnoremap y "+y
+ddddf4fdae827a1f994557880cfd4e26|file:///home/zhangjian/.config/nvim/clipboard.vim|8|9|v|vim
+	ipboard = {
+	      \ 'name': 'myClipboard',
+	      \     'copy': {
+	      \  
+61a7dac7b02f64a4e5011f3410317e65|file:///home/zhangjian/.config/nvim/clipboard.vim|13|1|V|vim
+	      \     },
+	      \     'paste': {
+da7d3d3a0ac271217bf9060116a1c47f|file:///home/zhangjian/.config/nvim/clipboard.vim|18|1|V|vim
+	      \ }
+285d88847e49ea7b5436074c2301567e|file:///home/zhangjian/.config/nvim/init.vim|131|9|v|vim
+	call mkdir(target_path, "p", 0700)
+	
+f919e30909dcd1f4ed0b30df1cea67c4|file:///home/zhangjian/.config/nvim/clipboard.vim|2|1|V|vim
+	    ln -sf ~/.config/nvim/clipboard-provider ~/.local/bin/clipboard-provider
+25e8e2d746d5df117fa2bf2e659a6b13|file:///home/zhangjian/.config/nvim/clipboard.vim|3|41|v|vim
+	clipboard 
+d894c02e091d376c805467b1c7c0518a|file:///home/zhangjian/.config/nvim/clipboard.vim|4|5|v|vim
+	~/.local/bin/osc-get-selection.sh
+43f932557581c4ce5880d0deeafad3ff|file:///home/zhangjian/.config/nvim/clipboard.vim|1|4|V|vim
+	if executable('clipboard-provider ')
+0b87bb74c4d3b4a451aae7270a3cc77e|file:///home/zhangjian/.config/nvim/clipboard-provider|15|1|v|sh
+	LOCAL_STORAGE=$HOME/.clipboard-provider.out
+	
+	main() {
+	    declare buffer status=1
+	
+	
+ddd8abd9cdaa958a7ece77c0c59cafbf|file:///home/zhangjian/.config/nvim/clipboard-provider|12|1|v|sh
+	: ${PASTE_PROVIDERS:=xclip pb tmux local my}
+	: ${TTY:=`(tty || tty </proc/$PPID/fd/0) 2>/dev/null | grep /dev/`}
+	
+	LOCAL_STORAGE=$HOME/.clipboard-provider.out
+	
+	
+1465dfa03aa828f0b1dc5c3823048aca|file:///home/zhangjian/.config/nvim/clipboard-provider|28|1|v|sh
+	            for p in $PASTE_PROVIDERS; do
+	                $p-provider paste && status=0 && break
+	            done ;;
+	    esac
+	
+	
+bfeef7b2a7b1ce54b23d70a8b60fcbe1|file:///home/zhangjian/.config/nvim/leader.vim|4|1|v|vim
+	nnoremap <leader>y <esc>:<C-u>CocList -A --normal yank<cr>
+	
+	" coc rename
+	n
+badcbbc8d945dc56f3aab53701423af4|file:///home/zhangjian/.config/nvim/clipboard-provider|30|1|v|sh
+	            done ;;
+	    esac
+	
+	 
+82ea0302809abaaff9678e444fa20642|file:///home/zhangjian/.config/nvim/clipboard-provider|31|1|v|sh
+	    esac
+	
+	    exit $status
+	}
+bd43d2d6ea7b0de8817cf0c97e597928|file:///home/zhangjian/.config/nvim/clipboard-provider|31|1|V|sh
+	    esac
+07998ee09f93243cc2dd5b29fd45607b|file:///home/zhangjian/.config/nvim/clipboard-provider|31|1|V|sh
+	    esac
+	
+c87bd38127959991b605755c3fcbf64f|file:///home/zhangjian/.config/nvim/clipboard-provider|25|1|v|sh
+	                internal | $p-provider copy && status=0
+	            done ;;
+	        paste)
+	            for p in $PASTE_PROVIDERS; do
+	 
+cf069b5d6a0b1e12d93d29c0c1ba967c|file:///home/zhangjian/.config/nvim/clipboard-provider|21|1|v|sh
+	        copy)
+	            buffer=$(base64 | tr -d '\n')
+	            internal() { base64 --decode <<<"$buffer"; }
+	 
+6d4289b6b6dc9374700d5ecdca53bf59|file:///home/zhangjian/.config/nvim/clipboard-provider|80|1|V|sh
+	    echo "jian test"
+1ed6d8b5c865a585f5f784d1babeb0f8|file:///home/zhangjian/.config/Trolltech.conf|3|1|V|
+	style=GTK+
